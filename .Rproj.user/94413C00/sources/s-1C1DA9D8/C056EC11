@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1535383533210.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C056EC11",
+    "lastKnownWriteTime" : 1535383547,
+    "last_content_update" : 1535384814237,
+    "path" : "~/Desktop/r-journalism/teacherpay/scripts/01_Importing.R",
+    "project_path" : "scripts/01_Importing.R",
+    "properties" : {
+        "cursorPosition" : "7,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,5 @@
+folder_names <- c("raw_data", "output_data", "rmd", "docs", "scripts")
+
+sapply(folder_names, dir.create)
+
+rm(folder_names)

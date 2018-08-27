@@ -1,0 +1,24 @@
+---
+title: "Mahoning County Teacher Pay"
+output: html_document
+---
+
+```{r loading, warning=F, message=F, echo=F}
+library(tidyverse)
+
+teacherpay <- read_csv("raw_data/teacherpay.csv")
+```
+
+The below chart examines teacher pay across school districts in Mahoning County. The data, from the State Employment Relations Board, applies to teachers who begin in the district with a bachelor's degree at the start of their tenure, at the tenth step of the pay scale and at the maximum salary.
+
+Canfield Local School District has the highest starting pay at $36,820. West Branch Local School District has the lowest at $30,819. 
+
+At ten years, Campbell City School District has the highest pay at $56,350, and West Branch Local School District has the lowest at $45,581.
+
+Campbell City School District has the highest maximum pay at $68,677. West Branch Local School has the lowest at $51,822.
+
+```{r datatable, warning=F, message=F, echo=F}
+library(DT)
+
+datatable(teacherpay)
+```
