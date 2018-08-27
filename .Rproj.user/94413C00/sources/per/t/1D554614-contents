@@ -17,6 +17,8 @@ At ten years, Campbell City School District has the highest pay at $56,350, and 
 
 Campbell City School District has the highest maximum pay at $68,677. West Branch Local School has the lowest at $51,822.
 
+An asterisk indicates the salaries are from the 2017-2018 contract.
+
 ```{r datatable, warning=F, message=F, echo=F}
 library(DT)
 
